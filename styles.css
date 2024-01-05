@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #555;
+}
+body{
+    overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+
+}
+a{
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.small-text{
+    font-size:large;
+}
+
+.menu-button{
+width: 30px;
+height: 30px;
+}
+
+.menu-button:hover{
+    background-color:rgba(100, 100, 100, 0.1);
+    width: 100%;
+}
+
+.profile-pic:hover{
+    background-color:rgba(100, 100, 100, 0.1) ;
+    cursor: pointer;
+}
+.profile-pic{
+    
+    border-radius: 100%;
+}
+
+.search-wrapper{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+form{
+    position: relative;
+}
+input{
+    width: 580px;
+    height: 45px;
+    padding-left:50px ;
+    font-size: larger;
+    border-radius: 45px;
+    border: 1px solid grey;
+}
+
+input:hover{
+    box-shadow:#555;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search{
+    width: 40px;
+    position:absolute;
+    top: 5px;
+    left: 6px;
+}
+
+.mic{
+    width: 30px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    left: 540px;
+}
+.buttons{
+    text-align: center;
+    margin: auto;
+    margin-top:20px ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+ 
+}
+
+button{
+    border:1px solid black ;
+    padding: 8px 12px;
+    height: 30px;
+    text-align: center;
+}
+button:hover{
+    border: 1px;
+    cursor: pointer;
+    
+}
+.foo{
+    height: 10px;
+    padding-top: 100px;
+    padding-left: 55px;
+}
+
+.panel{
+    height: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+
+}
